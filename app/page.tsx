@@ -11,9 +11,9 @@ import WorkExperience from "@/components/work";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nafis Karim | Portfolio",
+  title: "SSB | Portfolio",
   description:
-    "Nafis Karim just finished his CS degree and started his teaching journey as a lecturer at BRAC University.",
+    "Soumya Swagata Biswas just finished his CS degree and started his teaching journey as a lecturer at BRAC University.",
 };
 
 export default function Home() {

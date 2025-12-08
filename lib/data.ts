@@ -102,20 +102,21 @@ export const workExperienceData = [
     title: "Lecturer, Department of CSE",
     organization: "BRAC University",
     location: "Dhaka, Bangladesh",
-    date: "July 2024 - Present",
+    date: "June 2025 - Present",
     courses: [
       "Operating Systems (CSE 321)",
       "Programming Language 1 (CSE 110)",
       "Object Oriented Programming (CSE 111)",
       "Data Structures Lab (CSE 220)",
       "Discrete Mathematics (CSE 230)",
+      "Computer Graphics (CSE 423)",
     ],
   },
   {
     title: "Lecturer, Department of CSE",
     organization: "United International University",
     location: "Dhaka, Bangladesh",
-    date: "July 2023 - June 2024",
+    date: "April 2025 - June 2025",
     courses: [
       "Operating Systems (CSE 321)",
       "Programming Language 1 (CSE 110)",
@@ -229,26 +230,27 @@ export const researchData = [
 
 export const projectsData = [
   {
-    title: "Neural Image Style Transfer",
+    title: "Predictive Diagnosis System",
+    
     description:
-      "This project is inspired by the seminal paper from Gatys et al., on neural style transfer. The goal of this project is to explore and implement the neural style transfer technique where the style of one image is combined with the content of another using convolutional neural networks.",
+      "The system builds personalized predictive diagnostic profiles based on medical history, current symptoms, age, sex, etc. Using the pretrained BioBERT model, fine-tuned on a preprocessed dataset (ddxplus), the system generates a list of possible diagnoses with their respective probabilities.",
     tags: ["Python", "Pytorch", "Machine Learning", "Convolutional Neural Networks"],    
     imageUrl: nst,
     imageUrlDark: nst,
-    githubUrl: "https://github.com/NafisMahi/Neural-Image-Style-Transfer",
+    githubUrl: "https://github.com/blazecipher987/CSE472_ML_Project",
     websiteUrl: "",
   },
-  {
-    title: "Ray Tracing",
-    description:
-      "A ray tracing program that renders a 3D scene with realistic lighting.",
-    tags: ["C++", "OpenGL", "Computer Graphics"],
-    imageUrl: raytracingImg,
-    imageUrlDark: null,
-    githubUrl:
-      "https://github.com/NafisMahi/CSE-410--Computer-Graphics-Sessional",
-    websiteUrl: "",
-  },
+  // {
+  //   title: "Ray Tracing",
+  //   description:
+  //     "A ray tracing program that renders a 3D scene with realistic lighting.",
+  //   tags: ["C++", "OpenGL", "Computer Graphics"],
+  //   imageUrl: raytracingImg,
+  //   imageUrlDark: null,
+  //   githubUrl:
+  //     "https://github.com/NafisMahi/CSE-410--Computer-Graphics-Sessional",
+  //   websiteUrl: "",
+  // },
   {
     title: "A C Compiler",
     description:
@@ -256,39 +258,39 @@ export const projectsData = [
     tags: ["C", "Flex", "Bison", "Assembly", "C++"],
     imageUrl: compilerImg,
     imageUrlDark: compilerImgDark,
-    githubUrl: "https://github.com/NafisMahi/CSE-310--Compiler-Sessional",
+    githubUrl: "https://github.com/blazecipher987/CSE-310-Compiler-Sessional-",
     websiteUrl: "",
   },
+  // {
+  //   title: "Implementing System Calls, Scheduling, Memory Management with xv6",
+  //   description:
+  //     "Explored bash scripting and pthread synchronization, implemented custom system calls and a lottery scheduling algorithm, and added a copy-on-write paging mechanism to enhance memory management in the xv6 operating system.",
+  //   tags: ["C", "C++", "SHELL", "xv6"],
+  //   imageUrl: os,
+  //   imageUrlDark: os,
+  //   githubUrl:
+  //     "https://github.com/NafisMahi/CSE-314-Operating-Systems-Sessional",
+  //   websiteUrl: "",
+  // },
+// {
+//     title: "Nmap- Computer Security Project",
+//     description:
+//       "Various features of the network scanning tool, Nmap are explored and studied as part of the CSE 406- Computer Security Sessional project.",
+//     tags: ["Python", "Nmap", "Network Security"],
+//     imageUrl: nmap,
+//     imageUrlDark: nmap,
+//     githubUrl:
+//       "https://github.com/NafisMahi/Nmap-Computer-Security-Project",
+//     websiteUrl: "",
+//   },
   {
-    title: "Implementing System Calls, Scheduling, Memory Management with xv6",
+    title: "Algorithm Sessional Project - CSE462",
     description:
-      "Explored bash scripting and pthread synchronization, implemented custom system calls and a lottery scheduling algorithm, and added a copy-on-write paging mechanism to enhance memory management in the xv6 operating system.",
-    tags: ["C", "C++", "SHELL", "xv6"],
-    imageUrl: os,
-    imageUrlDark: os,
-    githubUrl:
-      "https://github.com/NafisMahi/CSE-314-Operating-Systems-Sessional",
-    websiteUrl: "",
-  },
-{
-    title: "Nmap- Computer Security Project",
-    description:
-      "Various features of the network scanning tool, Nmap are explored and studied as part of the CSE 406- Computer Security Sessional project.",
-    tags: ["Python", "Nmap", "Network Security"],
-    imageUrl: nmap,
-    imageUrlDark: nmap,
-    githubUrl:
-      "https://github.com/NafisMahi/Nmap-Computer-Security-Project",
-    websiteUrl: "",
-  },
-  {
-    title: "Simulation and Modeling Sessional Projects - CSE412",
-    description:
-      "A collection of simulation and modeling assignments for the CSE412 course, each designed to address a unique real-world problem. These projects utilize various simulation techniques, including queueing systems, inventory management, project scheduling, and Monte Carlo methods.",
+      "Developed a new hueristic algorithm for the Traveling Salesman Problem (TSP) using Python. The algorithm combines genetic algorithms with local search techniques to efficiently find near-optimal solutions for large TSP instances. Performance was evaluated against standard benchmarks, demonstrating improved solution quality and reduced computation time compared to existing heuristics.",
     tags: ["Python"],
     imageUrl: null,
     imageUrlDark: null,
-    githubUrl: "https://github.com/NafisMahi/CSE-412-Simulation-and-Modeling-Sessional",
+    githubUrl: "https://github.com/blazecipher987/CSE-462-Algorithm-Engineering-Sessional-",
     websiteUrl: "",
   },
   {
@@ -298,8 +300,8 @@ export const projectsData = [
     tags: ["C", "C++", "Python", "Docker", "Firewall"],
     imageUrl: secu,
     imageUrlDark: secu,
-    githubUrl: "https://github.com/NafisMahi/CSE-406--Computer-Security-Sessional",
-    websiteUrl: "https://shamit187.itch.io/huh",
+    githubUrl: "",
+    websiteUrl: "",
   },
 
 ] as const;
@@ -332,13 +334,13 @@ export const skillsData = [
 
 export const socialsData = {
   github: {
-    url: "https://github.com/NafisMahi",
+    url: "https://github.com/blazecipher987",
   },
   linkedin: {
-    url: "https://www.linkedin.com/in/nafis-karim-bb95a01b0/?originalSubdomain=bd",
+    url: "https://www.linkedin.com/in/ssbiswas987/",
   },
   email: {
-    address: "nafiskarim1999@gmail.com",
+    address: "ssbiswas987@gmail.com",
   },
 } as const;
 
@@ -346,7 +348,7 @@ export const hobbies = [
   "travelling.",
   "coding.",
   "problem solving.",
-  "learning new things.",
+  "Debating.",
   "building secure softwares and systems.",
   "playing video games.",
 ] as const;
