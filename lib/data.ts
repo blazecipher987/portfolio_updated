@@ -81,7 +81,7 @@ export const experiencesData = [
     date: "2017 - 2019",
     others: {
       GPA: "5.00/5.00",
-      Recognition: "Talentpool Board Scholarship(3rd in Chittagong Division)",
+      Recognition: "Talentpool Board Scholarship(10th in Chittagong Division)",
     },
   },
   {
@@ -92,7 +92,7 @@ export const experiencesData = [
     date: "2007 - 2017",
     others: {
       GPA: "5.00/5.00",
-      Recognition: "Talentpool Board Scholarship(7th in Chittagong Division)",
+      Recognition: "Talentpool Board Scholarship(8th in Chittagong Division)",
     },
   },
 ] as const;
