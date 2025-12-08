@@ -57,9 +57,9 @@ export const experiencesData = [
     description:
       "Completed my Bachelor of Science in Computer Science and Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2024",
+    date: "2020 - 2025",
     others: {
-      CGPA: "3.81/4.00 (3.97/4.00 in Final Year)\n\n",
+      CGPA: "3.81/4.00 (3.94/4.00 in Final Year)\n\n",
       "Relevant Courseworks": [
         "Computer Security, ",
         "Machine Learning, ",
@@ -75,24 +75,24 @@ export const experiencesData = [
   },
   {
     title: "Higher Secondary School Certificate (HSC)",
-    institution: "Notre Dame College (NDC)",
-    location: "Dhaka, Bangladesh",
+    institution: "Chittagong College",
+    location: "Chittagong, Bangladesh",
     icon: React.createElement(LuGraduationCap),
-    date: "2016 - 2018",
+    date: "2017 - 2019",
     others: {
       GPA: "5.00/5.00",
-      Recognition: "Talentpool Board Scholarship(33rd in Dhaka Division)",
+      Recognition: "Talentpool Board Scholarship(3rd in Chittagong Division)",
     },
   },
   {
     title: "Secondary School Certificate (SSC)",
-    institution: "Ideal School and College",
-    location: "Dhaka, Bangladesh",
+    institution: "Chittagong Government High School",
+    location: "Chittagong, Bangladesh",
     icon: React.createElement(LuGraduationCap),
-    date: "2006 - 2016",
+    date: "2007 - 2017",
     others: {
       GPA: "5.00/5.00",
-      Recognition: "Talentpool Board Scholarship(12th in Dhaka Division)",
+      Recognition: "Talentpool Board Scholarship(7th in Chittagong Division)",
     },
   },
 ] as const;
@@ -111,30 +111,44 @@ export const workExperienceData = [
       "Discrete Mathematics (CSE 230)",
     ],
   },
+  {
+    title: "Lecturer, Department of CSE",
+    organization: "United International University",
+    location: "Dhaka, Bangladesh",
+    date: "July 2023 - June 2024",
+    courses: [
+      "Operating Systems (CSE 321)",
+      "Programming Language 1 (CSE 110)",
+      "Object Oriented Programming (CSE 111)",
+      "Data Structures Lab (CSE 220)",
+      "Discrete Mathematics (CSE 230)",
+    ],
+  },
 ];
 
 
 export const researchData = [
 
   {
-    title: "Exploring Few-Shot Learning for Named Entity Recognition in Cyber Threat Intelligence: A Novel but Inefficient Approach Compared to Transformer-Based Models",
+    title: "SparseVFL: Enhancing Vertical Federated Learning Efficiency through Autoencoder-based Dimensionality Reduction and PCA-guided Gradient Sparsification",
     description:
-      "Developed and evaluated methods for Named Entity Recognition (NER) in Cyber Threat Intelligence using transformer models (BERT, SecureBERT) and few-shot learning models (GPT-3.5, GPT-4.0, Gemini) on DNRTI and APTNER datasets. Results demonstrated that fine-tuned transformers outperformed few-shot models in accuracy and precision, highlighting the value of domain-specific training for CTI applications.",
+      "Proposed SparseVFL, a novel Vertical Federated Learning (VFL) framework that integrates autoencoder-based dimensionality reduction and PCA-guided gradient sparsification to enhance communication efficiency and model performance. Evaluated on multiple datasets, SparseVFL demonstrated significant reductions in communication overhead while maintaining or improving accuracy compared to traditional VFL methods.",
+      // "Developed and evaluated methods for Named Entity Recognition (NER) in Cyber Threat Intelligence using transformer models (BERT, SecureBERT) and few-shot learning models (GPT-3.5, GPT-4.0, Gemini) on DNRTI and APTNER datasets. Results demonstrated that fine-tuned transformers outperformed few-shot models in accuracy and precision, highlighting the value of domain-specific training for CTI applications.",
       supervisor: {
-        name: "Dr. Md. Shohrab Hossain",
-        url: "https://mshohrabhossain.buet.ac.bd/",
+        name: "Dr. Muhammad Abdullah Adnan",
+        url: "https://sites.google.com/site/abdullahadnan",
       },
-      collaborators: [
-        {
-          name: "Professor Ren-Hung Hwang",
-          url: "https://rhhwang.csie.io/English/index.html",
-        },
-        {
-          name: "Professor Ying Dar Lin",
-          url: "https://speed.cs.nycu.edu.tw/~ydlin/",
-        },
-      ],
-    date: "June 2023 - December 2024",
+      // collaborators: [
+      //   {
+      //     name: "Professor Ren-Hung Hwang",
+      //     url: "https://rhhwang.csie.io/English/index.html",
+      //   },
+      //   {
+      //     name: "Professor Ying Dar Lin",
+      //     url: "https://speed.cs.nycu.edu.tw/~ydlin/",
+      //   },
+      // ],
+    date: "June 2024 - December 2025",
     status: "Under review at ACM Transactions on Privacy and Security",
   },
   // {

@@ -27,20 +27,20 @@ function About() {
         >
           Dr. Muhammad Abdullah Adnan
         </a>{" "}
-        It focused on exploring the effectiveness of in-context
-        learning for Named Entity Recognition in Cyber Threat Intelligence,
-        along with fine-tuning and prompting Large Language Models for the
-        task.
+        It focused on developing a novel defesne mechanism for Vertical Federated Learninng using autoencoderes and PCA guided graident sparsificationn.
+
       </p>
       <p className="mb-3">
         When I am not studying, I enjoy listening to music, playing the guitar,
         and watching movies. I enjoy performing on stage in various cultural
-        programs with my own band. Furthermore I have always loved attending olynmpiads
-        and have coached teams of students on this.
+        programs Furthermore I have always loved attending olynmpiads
+        and have coached teams of students on this. I am also very interested in debating
+        and have participated in several debate competitions.
       </p>
       <p className="mb-3">
         Starting from Summer 2025, I joined the CSE Department at the School of
-        Data and Sciences (SDS) in BRAC University as a Lecturer. I am actively
+        Data and Sciences (SDS) in BRAC University as a Lecturer. Before that, I was also a Lecturer
+        at United International University. I am actively
         looking for fully-funded Graduate Research Student positions in top CS
         research labs. You are also welcome to knock me with startup ideas and
         educational content creation opportunities.
