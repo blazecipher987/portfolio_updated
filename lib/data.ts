@@ -138,16 +138,16 @@ export const researchData = [
         name: "Dr. Muhammad Abdullah Adnan",
         url: "https://sites.google.com/site/abdullahadnan",
       },
-      // collaborators: [
-      //   {
-      //     name: "Professor Ren-Hung Hwang",
-      //     url: "https://rhhwang.csie.io/English/index.html",
-      //   },
-      //   {
-      //     name: "Professor Ying Dar Lin",
-      //     url: "https://speed.cs.nycu.edu.tw/~ydlin/",
-      //   },
-      // ],
+      collaborators: [
+        {
+          name: "Professor Ren-Hung Hwang",
+          url: "https://rhhwang.csie.io/English/index.html",
+        },
+        {
+          name: "Professor Ying Dar Lin",
+          url: "https://speed.cs.nycu.edu.tw/~ydlin/",
+        },
+      ],
     date: "June 2024 - December 2025",
     status: "Under review at ACM Transactions on Privacy and Security",
   },

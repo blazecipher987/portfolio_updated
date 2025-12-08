@@ -69,7 +69,7 @@ function Intro() {
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
-  Hello, I'm<span className='font-bold'> Nafis Karim,</span> a
+  Hello, I'm<span className='font-bold'> Soumya Swagata Biswas</span> a
   <span className='font-bold'> Lecturer at the </span> at{" "}
   <a
     href='https://www.bracu.ac.bd/'

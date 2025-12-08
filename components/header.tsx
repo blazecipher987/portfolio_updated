@@ -23,7 +23,7 @@ function Header() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Nafis's Portfolio
+              Soumya's Portfolio
             </motion.span>
           </Link>
         </div>
